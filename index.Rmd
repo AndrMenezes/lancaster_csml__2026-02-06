@@ -777,8 +777,8 @@ unknown covariates effects.
 .font80[
 
 **Future work**
-  - Integrate our proposed models for the inverse prediction problem `r Citet(bib, "Parnell2015")`:
-    Given new pollen counts $\mathbf{Y}_i^\ast$ would is the posterior of $\mathbf{X}^{\ast}$, i.e., $p(\mathbf{x}^{\ast} \mid \mathbf{Y}_i^\ast, \mathbf{Y}, \mathbf{x})$?.
+  - Use our proposed models for the inverse prediction problem `r Citet(bib, "Parnell2015")`:
+    Given new pollen counts $\mathbf{Y}_i^\ast$ what is the associated climate $\mathbf{x}^{\ast}$ associated with them, i.e., $p(\mathbf{x}^{\ast} \mid \mathbf{Y}_i^\ast, \mathbf{Y}, \mathbf{x})$?.
   
   - Relax the independence across $\mathbf{z}_i$ using the
   probit seemingly unrelated BART (probit-suBART) prior of `r Citet(bib, "Esser2025")`.
